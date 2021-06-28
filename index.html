@@ -1,10 +1,94 @@
-<!DOTYPE>
+<!DOCTYPE html>
 <html>
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-	<title>Пример веб-страницы</title>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+	<title>Верстка формы</title>
+	<script>
+		function sizePic(){
+			size = document.getElementById("size").value;
+			img = document.getElementById("pic");
+			img.width=60+20*size;
+		}
+	</script>
 </head>
 <body>
+<<<<<<< HEAD
 
+=======
+	<form>
+		<table width="1200" border="1" align="center" cellpadding="4" cellspacing="0">
+			<tr>
+				<td align="center" width="194" height="150">
+					<p><select name="select">
+						<option>Вариант№1</option>
+					</select>
+					<input type="submit" value="Отправить"></p>
+				</td>
+				<td align="center" width="194" height="150">
+					<p><select name="select" size="4" multiple>
+						<option selected value="a1">Вариант№1</option>
+						<option value="a2">Вариант№2</option>
+						<option value="a3">Вариант№3</option>
+						<option value="a4">Вариант№4</option>
+					</select>
+						<input type="submit" value="Отправить"></p>
+				</td>
+				<td align="center" width="194" height="150">
+					<p><label>Укажите цифру:</label></p>
+					<p><input maxlength="20" size="5" value="4"></p>
+				</td>
+				<td align="center" width="194" height="150">
+					<p><select name="select" size="1" multiple>
+						<option selected value="a1">Вариант№1</option>
+					</select></p>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" height="250">
+					<p>Размер рисунка: <input type="range" min="1" max="5" id="size" oninput="sizePic()" value="3"></p>
+					<p><img src="image/cat.png" alt="picturecat" id="pic"></p>
+				</td>
+				<td align="center" height="250">
+					<p><input type="submit" value="Отправить"></p>
+				</td>
+				<td align="center" height="250">
+					<p><input type="search" name="qwe" placeholder="Поиск по сайту">
+					<input type="submit" value="Поиск"></p>
+				</td>
+				<td align="center" height="250">
+					<p>Укажите цвет фона: <input type="color" name="rgb" value="#ff0000">
+					<input type="submit" value="Выбрать"></p>
+				</td>
+			</tr>
+			<tr>
+				<td align="center" height="200">
+					<p><b>Укажите</b></p>
+					<p><input name="radiob" type="radio" value="radioBatton">Radio Button</p>
+					<p><input name="radiob" type="radio" value="radioBatton" checked>Radio Button</p>
+					<p><input name="radiob" type="radio" value="radioBatton">Radio Button</p>
+					<p><input type="submit" value="Submit"></p>
+				</td>
+				<td align="center" height="200">
+					<p><b>Введите текст:</b></p>
+					<p><textarea name="content"></textarea></p>
+					<p><input type="submit" value="Submit"></p>
+				</td>
+				<td align="center" height="200">
+				 	<p><b>Укажите дату</b></p>
+					<p><b><input type="checkbox" name="num" value="2010">2010</b></p>
+					<p><b><input type="checkbox" name="num" value="2010">2014</b></p>
+					<p><b><input type="checkbox" name="num" value="2010">2017</b></p>
+					<p><b><input type="checkbox" name="num" value="2010">2021</b></p>
+					<p><input type="submit" value="Отправить"></p>
+				</td>
+				<td align="center" height="200">
+					<p><b>Загрузите фотографии</b></p>
+					<p><input type="file" name="photo" multiple accept="image/*,image/jpeg" value="Choose file">
+						<input type="submit" value="Отправить"></p>
+				</td>
+			</tr>
+		</table>
+	</form>
+>>>>>>> feature/17.06
 </body>
 </html>
