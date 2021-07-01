@@ -1,0 +1,16 @@
+h1{
+    font-size: 100%;
+    font-family: Arial;
+    text-align: center;
+}
+table{
+    width: 1700;
+    border-style: dashed;
+}
+.number{
+    murgin-left: 20px;
+    color: red;
+}
+p.size_photo{
+    color: #000080;
+}

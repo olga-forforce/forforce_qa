@@ -3,6 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html" charset="utf-8">
 	<title>Верстка формы</title>
+	<link rel="stylesheet" href="style.css">
 	<script>
 		function sizePic(){
 			size = document.getElementById("size").value;
@@ -13,7 +14,7 @@
 </head>
 <body>
 	<form>
-		<table width="1200" border="1" align="center" cellpadding="4" cellspacing="0">
+		<table border="1" align="center" cellpadding="4" cellspacing="0">
 			<tr>
 				<td align="center" width="194" height="150">
 					<p><select name="select">
@@ -31,7 +32,7 @@
 						<input type="submit" value="Отправить"></p>
 				</td>
 				<td align="center" width="194" height="150">
-					<p><label>Укажите цифру:</label></p>
+					<p class="number"><label>Укажите цифру:</label></p>
 					<p><input maxlength="20" size="5" value="4"></p>
 				</td>
 				<td align="center" width="194" height="150">
@@ -42,7 +43,7 @@
 			</tr>
 			<tr>
 				<td align="center" height="250">
-					<p>Размер рисунка: <input type="range" min="1" max="5" id="size" oninput="sizePic()" value="3"></p>
+					<p class="size_photo">Размер рисунка: <input type="range" min="1" max="5" id="size" oninput="sizePic()" value="3"></p>
 					<p><img src="image/cat.png" alt="picturecat" id="pic"></p>
 				</td>
 				<td align="center" height="250">
