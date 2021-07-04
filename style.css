@@ -11,7 +11,7 @@ a {
     height: 50px;
 }
 .header_logo {
-    display: block;
+    display: flex;
     margin-left: 345px;
     margin-top: 40px;
     font-family: "Calibri", sans-serif;

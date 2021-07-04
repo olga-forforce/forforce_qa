@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/olga-forforce/forforce_qa#readme",
   "dependencies": {
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "normalize.css": "^8.0.1"
   }
 }
