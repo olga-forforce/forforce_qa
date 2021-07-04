@@ -4,21 +4,52 @@
     height: 118px;
 }
 .container {
-
-    margin-left: 255px;
-    margin-right: 255px;
-}
-img.logo {
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 32px;
     display: flex;
-    justify-content: flex-start;
-    margin-left: 255px;
-    margin-top: 36px;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+    list-style-type: none; /* Убираем маркеры */
+}
+a {
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+}
+.navigation a {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Calibri", sans-serif;
+    font-size: 12pt;
+    font-weight: normal;
+    color:  #ffffff;
+    text-align: center;
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+#logo_img {
     width: 50px;
     height: 50px;
 }
-span {
-    margin-top: 40px;
+#phone{
+    width: 25px;
+    height: 25px;
+}
+.logo_text {
     font-family: "Calibri", sans-serif;
     font-size: 12pt;
+    font-weight: bold;
+    color:  #ffffff;
+    text-shadow: 1px 2px 2px gray;
+}
+.number{
+    font-family: "Tahoma", sans-serif;
+    font-size: 10pt;
+    font-weight: bold;
     color:  #ffffff;
 }
