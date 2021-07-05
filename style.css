@@ -7,7 +7,7 @@
     width: 1440px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 32px;
+    padding-top: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -19,14 +19,16 @@
 a {
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
+.navigation a:hover {
+     color: #ffffff; /* Цвет при наведении */
+ }
 .navigation a {
-    display: flex;
-    justify-content: space-around;
     font-family: "Calibri", sans-serif;
-    font-size: 12pt;
     font-weight: normal;
-    color:  #ffffff;
+    font-size: 20px;
+    color:  #494848;
     text-align: center;
+    margin-right: 30px;
 }
 .logo{
     display: flex;
@@ -35,6 +37,7 @@ a {
 #logo_img {
     width: 50px;
     height: 50px;
+    margin-right: 30px;
 }
 #phone{
     width: 25px;
@@ -42,14 +45,15 @@ a {
 }
 .logo_text {
     font-family: "Calibri", sans-serif;
-    font-size: 12pt;
+    font-size: 20px;
     font-weight: bold;
     color:  #ffffff;
     text-shadow: 1px 2px 2px gray;
 }
 .number{
+    margin-left: 700px;
     font-family: "Tahoma", sans-serif;
-    font-size: 10pt;
+    font-size: 20px;
     font-weight: bold;
     color:  #ffffff;
 }
