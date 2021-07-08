@@ -1,3 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+.clearfix::after{
+    display: block;
+    content: "";
+    clear: both;
+}
 .header_main{
     background-color: #43b1d2;
     width: 100%;
@@ -15,6 +23,7 @@
 .navigation{
     display: flex;
     list-style-type: none; /* Убираем маркеры */
+    padding: 0;
 }
 a {
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
@@ -57,3 +66,4 @@ a {
     font-weight: bold;
     color:  #ffffff;
 }
+
