@@ -4,7 +4,7 @@ h1 {
     text-align: center;
 }
 table{
-    width: 1700;
+    width: 1700px;
     border-style: dashed;
 }
 .number{
@@ -13,7 +13,6 @@ table{
 }
 p.size_photo{
     color: #000080;
-{
     box-sizing: border-box;
 }
 .clearfix::after{
