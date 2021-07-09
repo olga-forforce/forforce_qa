@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-h1{
+h1 {
     font-size: 100%;
     font-family: Arial;
     text-align: center;
@@ -14,8 +13,7 @@ table{
 }
 p.size_photo{
     color: #000080;
-=======
-*{
+{
     box-sizing: border-box;
 }
 .clearfix::after{
@@ -96,10 +94,9 @@ a {
     padding:10px;
     border-radius: 5px;
 }
-.top_text{
+.top_text {
     color:#494848;
     font-family: "Calibri", sans-serif;
     font-size:18px;
     cursor:pointer;
->>>>>>> feature/02.07
 }
