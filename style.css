@@ -1,18 +1,4 @@
-h1 {
-    font-size: 100%;
-    font-family: Arial;
-    text-align: center;
-}
-table{
-    width: 1700px;
-    border-style: dashed;
-}
-.number{
-    murgin-left: 20px;
-    color: red;
-}
-p.size_photo{
-    color: #000080;
+*{
     box-sizing: border-box;
 }
 .clearfix::after{
@@ -59,8 +45,8 @@ a {
     text-decoration: none; /* Отменяем подчеркивание у ссылки */
 }
 .navigation a:hover {
-     color: #ffffff; /* Цвет при наведении */
- }
+    color: #ffffff; /* Цвет при наведении */
+}
 .navigation a {
     font-family: "Calibri", sans-serif;
     font-weight: normal;
@@ -93,9 +79,14 @@ a {
     padding:10px;
     border-radius: 5px;
 }
-.top_text {
+.top_text{
     color:#494848;
     font-family: "Calibri", sans-serif;
     font-size:18px;
     cursor:pointer;
+}
+.the_man{
+    background-color: #cbd4e6;
+    width: 100%;
+    height: 516px;
 }
