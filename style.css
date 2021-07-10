@@ -131,7 +131,8 @@ a {
 #serv1{
     width: 360px;
     background-color: #43b1d2;
-
+    display: block;
+    position: relative;
 }
 #serv2{
     width: 360px;
