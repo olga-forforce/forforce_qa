@@ -90,3 +90,58 @@ a {
     width: 100%;
     height: 516px;
 }
+.banner{
+    width: 1440px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+.banner_text{
+    position: absolute;
+    left: 650px;
+    top: 115px;
+    text-align: end;
+    font-family: "Calibri", sans-serif;
+    font-size: 24px;
+    color: #494848;
+}
+.name_banner{
+    position: absolute;
+    left: 650px;
+    top: 316px;
+    margin: 0;
+    text-align: end;
+    font-family: "Myriad Pro", sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    color: #494848;
+}
+.banner_phone{
+    position: absolute;
+    right: 0;
+    top: 434px;
+    margin: 0;
+}
+.services{
+    width: 1440px;
+    height: 325px;
+    margin: auto;
+    text-align: center;
+}
+#serv1{
+    width: 360px;
+    background-color: #43b1d2;
+
+}
+#serv2{
+    width: 360px;
+    background-color: #3fb6c6;
+}
+#serv3{
+    width: 360px;
+    background-color: #3cbbbb;
+}
+#serv4{
+    width: 360px;
+    background-color: #37c3a8;
+}
