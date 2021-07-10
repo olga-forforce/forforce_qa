@@ -128,21 +128,40 @@ a {
     margin: auto;
     text-align: center;
 }
-#serv1{
+.services_list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 325px;
+}
+.serv1{
     width: 360px;
     background-color: #43b1d2;
-    display: block;
-    position: relative;
 }
-#serv2{
+.serv2{
     width: 360px;
     background-color: #3fb6c6;
 }
-#serv3{
+.serv3{
     width: 360px;
     background-color: #3cbbbb;
 }
-#serv4{
+.serv4{
     width: 360px;
     background-color: #37c3a8;
+}
+.block1{
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.block1_icon{
+    width: 45px;
+    height: 45px;
 }
