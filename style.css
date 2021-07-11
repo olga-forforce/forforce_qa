@@ -120,7 +120,21 @@ a {
     position: absolute;
     right: 0;
     top: 434px;
-    margin: 0;
+}
+.button_phone{
+    padding: 10px;
+    font-family: "Calibri", sans-serif;
+    font-size: 18px;
+    color: #494848;
+    background-color: #cbd4e6;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.phone_write{
+    padding: 10px;
+    font-family: "Calibri", sans-serif;
+    font-size: 18px;
+    color: #494848;
 }
 .services{
     width: 1440px;
@@ -160,8 +174,100 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: auto;
 }
 .block1_icon{
     width: 45px;
     height: 45px;
+}
+.one_service{
+    margin-top: 70px;
+}
+.title1{
+    font-family: Myriad Pro,  sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: #ffffff;
+}
+.about_serv1{
+    font-family: Myriad Pro,  sans-serif;
+    font-size: 14.4px;
+    color: #ffffff;
+}
+.block2{
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.block2_icon{
+    width: 45px;
+    height: 45px;
+}
+.block3{
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.block3_icon{
+    width: 30px;
+    height: 45px;
+}
+.block4{
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.block4_icon{
+    width: 45px;
+    height: 45px;
+}
+.tabs{
+    width: 1440px;
+    height: 135px;
+    margin: auto;
+    text-align: center;
+}
+.tabs_text{
+    display: flex;
+    list-style-type: none;
+    margin-top: 40px;
+    padding: 0;
+    width: 1440px;
+}
+.mrt{
+    padding: 20px;
+    font-family: "Calibri", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #494848;
+    border: 2px solid #cbd4e6;
+}
+.kt{
+    padding: 20px;
+    font-family: "Calibri", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #43b1d2;
+}
+.rentgen{
+    padding: 20px;
+    font-family: "Calibri", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: #43b1d2;
 }
