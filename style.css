@@ -135,6 +135,7 @@ a {
     font-family: "Calibri", sans-serif;
     font-size: 18px;
     color: #494848;
+    border-radius: 5px;
 }
 .services{
     width: 1440px;
@@ -256,6 +257,8 @@ a {
     font-weight: bold;
     color: #494848;
     border: 2px solid #cbd4e6;
+    border-bottom-color: #ffffff;
+    border-left-color: #ffffff;
 }
 .kt{
     padding: 20px;
@@ -263,6 +266,9 @@ a {
     font-size: 24px;
     font-weight: bold;
     color: #43b1d2;
+    border: 2px solid #cbd4e6;
+    border-top-color: #ffffff;
+    border-right-color: #ffffff;
 }
 .rentgen{
     padding: 20px;
@@ -270,4 +276,8 @@ a {
     font-size: 24px;
     font-weight: bold;
     color: #43b1d2;
+    border: 2px solid #cbd4e6;
+    border-top-color: #ffffff;
+    border-right-color: #ffffff;
+    border-left-color: #ffffff;
 }
