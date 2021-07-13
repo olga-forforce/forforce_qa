@@ -250,32 +250,24 @@ a {
     padding: 0;
     width: 1440px;
 }
-.mrt{
+.mrt, .kt, .rentgen{
     padding: 20px;
     font-family: "Calibri", sans-serif;
     font-size: 24px;
     font-weight: bold;
-    color: #494848;
+    color: #43b1d2;
+}
+.mrt{
     border: 2px solid #cbd4e6;
     border-bottom-color: #ffffff;
     border-left-color: #ffffff;
 }
 .kt{
-    padding: 20px;
-    font-family: "Calibri", sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #43b1d2;
     border: 2px solid #cbd4e6;
     border-top-color: #ffffff;
     border-right-color: #ffffff;
 }
 .rentgen{
-    padding: 20px;
-    font-family: "Calibri", sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    color: #43b1d2;
     border: 2px solid #cbd4e6;
     border-top-color: #ffffff;
     border-right-color: #ffffff;
