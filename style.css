@@ -6,12 +6,6 @@
     content: "";
     clear: both;
 }
-.wrapper{
-    display: flex;
-    min-height: 100%;
-    overflow: hidden;
-    flex-direction: column;
-}
 .container {
     max-width: 1440px;
     margin: 0px auto;
@@ -50,7 +44,7 @@
     display: flex;
     align-items: center;
 }
-#logo_img {
+.logo_img {
     width: 50px;
     height: 50px;
     margin-right: 30px;
@@ -116,13 +110,17 @@
 }
 .the_man{
     background-color: #cbd4e6;
-    height: 516px;
 }
 .banner{
     position: relative;
+    background-image: url(image/theman.png);
+    background-size: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-repeat: no-repeat;
 }
 .banner_text{
-    position: absolute;
+
     left: 650px;
     top: 115px;
     text-align: end;
@@ -131,7 +129,7 @@
     color: #494848;
 }
 .banner_name{
-    position: absolute;
+
     left: 650px;
     top: 316px;
     margin: 0;
@@ -142,7 +140,7 @@
     color: #494848;
 }
 .banner_phone{
-    position: absolute;
+
     right: 0;
     top: 434px;
 }
@@ -227,6 +225,7 @@
     list-style-type: none;
     margin-top: 40px;
     padding: 0;
+    margin-bottom: 0;
 }
 .mrt, .kt, .rentgen{
     padding: 20px;
@@ -238,43 +237,35 @@
 .mrt{
     border: 2px solid #cbd4e6;
     border-bottom-color: #ffffff;
-    border-left-color: #ffffff;
 }
-.kt{
-    border: 2px solid #cbd4e6;
-    border-top-color: #ffffff;
-    border-right-color: #ffffff;
-}
-.rentgen{
-    border: 2px solid #cbd4e6;
-    border-top-color: #ffffff;
-    border-right-color: #ffffff;
-    border-left-color: #ffffff;
+.tabs__content{
+    border-top: 1px solid #cbd4e6;
+    margin-top: -1px;
 }
 @font-face {
-    font-family: "Calibri";
-    src: url("fonts/Calibri.woff2");
+    font-family: "calibri";
+    src: url("fonts/calibri.woff2");
     format("woff2");
     font-style: normal;
     font-weight: normal;
 }
 @font-face {
-    font-family: "Calibri Bold";
-    src: url("fonts/Calibri-Bold.woff2");
+    font-family: "calibri";
+    src: url("fonts/calibri-bold.woff2");
     format("woff2");
     font-style: normal;
     font-weight: 900;
 }
 @font-face {
-    font-family: "Calibri light";
-    src: url("fonts/Calibri-Light.woff2");
+    font-family: "calibri";
+    src: url("fonts/calibri-light.woff2");
     format("woff2");
     font-style: normal;
     font-weight: 300;
 }
 @font-face {
-    font-family: "Calibri light Italic";
-    src: url("fonts/Calibri-LightItalic.woff2");
+    font-family: "calibri";
+    src: url("fonts/calibri-lightitalic.woff2");
     format("woff2");
     font-style: italic;
     font-weight: normal;
