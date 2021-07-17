@@ -6,7 +6,7 @@
     content: "";
     clear: both;
 }
-.header_main{
+.header{
     background-color: #43b1d2;
     width: 100%;
     height: 118px;
@@ -36,16 +36,10 @@
     color:  #ffffff;
     text-shadow: 1px 2px 2px gray;
 }
-.navigation{
+.navigation {
     display: flex;
     justify-content: flex-end;
     list-style-type: none; /* Убираем маркеры */
-}
-a {
-    text-decoration: none; /* Отменяем подчеркивание у ссылки */
-}
-.navigation a:hover {
-    color: #ffffff; /* Цвет при наведении */
 }
 .navigation a {
     font-family: "Calibri", sans-serif;
@@ -54,6 +48,13 @@ a {
     color:  #494848;
     text-align: center;
     margin-left: 30px;
+    text-decoration: none;
+}
+.end_element{
+    margin-right: 0;
+}
+.navigation a:hover {
+    color: #ffffff; /* Цвет при наведении */
 }
 .number_icon{
     margin-left: 700px;
@@ -65,9 +66,6 @@ a {
 .number{
     position: relative;
     bottom: 5px;
-}
-.li_end{
-    margin-right: 0;
 }
 .top {
     position: fixed;
@@ -84,6 +82,7 @@ a {
     font-family: "Calibri", sans-serif;
     font-size:18px;
     cursor:pointer;
+    text-decoration: none;
 }
 .the_man{
     background-color: #cbd4e6;
@@ -105,7 +104,7 @@ a {
     font-size: 24px;
     color: #494848;
 }
-.name_banner{
+.banner_name{
     position: absolute;
     left: 650px;
     top: 316px;
@@ -151,23 +150,22 @@ a {
     width: 1440px;
     height: 325px;
 }
-.serv1{
+.serv1, .serv2, .serv3, .serv4{
     width: 360px;
+}
+.serv1{
     background-color: #43b1d2;
 }
 .serv2{
-    width: 360px;
     background-color: #3fb6c6;
 }
 .serv3{
-    width: 360px;
     background-color: #3cbbbb;
 }
 .serv4{
-    width: 360px;
     background-color: #37c3a8;
 }
-.block1{
+.smart_element{
     background-color: #ffffff;
     border-radius: 50%;
     width: 70px;
@@ -177,64 +175,26 @@ a {
     align-items: center;
     margin: auto;
 }
-.block1_icon{
-    width: 45px;
-    height: 45px;
-}
 .one_service{
     margin-top: 70px;
 }
-.title1{
+.services_title{
     font-family: Myriad Pro,  sans-serif;
     font-size: 27px;
     font-weight: bold;
     color: #ffffff;
 }
-.about_serv1{
+.about_serv{
     font-family: Myriad Pro,  sans-serif;
     font-size: 14.4px;
     color: #ffffff;
 }
-.block2{
-    background-color: #ffffff;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.block2_icon{
+.icon_elem{
     width: 45px;
     height: 45px;
 }
-.block3{
-    background-color: #ffffff;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.block3_icon{
+.icon_elem3{
     width: 30px;
-    height: 45px;
-}
-.block4{
-    background-color: #ffffff;
-    border-radius: 50%;
-    width: 70px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: auto;
-}
-.block4_icon{
-    width: 45px;
     height: 45px;
 }
 .tabs{
@@ -272,4 +232,32 @@ a {
     border-top-color: #ffffff;
     border-right-color: #ffffff;
     border-left-color: #ffffff;
+}
+@font-face {
+    font-family: "Calibri";
+    src: url("fonts/Calibri.woff2");
+    format("woff2");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: "Calibri Bold";
+    src: url("fonts/Calibri-Bold.woff2");
+    format("woff2");
+    font-style: normal;
+    font-weight: 900;
+}
+@font-face {
+    font-family: "Calibri light";
+    src: url("fonts/Calibri-Light.woff2");
+    format("woff2");
+    font-style: normal;
+    font-weight: 300;
+}
+@font-face {
+    font-family: "Calibri light Italic";
+    src: url("fonts/Calibri-LightItalic.woff2");
+    format("woff2");
+    font-style: italic;
+    font-weight: normal;
 }
