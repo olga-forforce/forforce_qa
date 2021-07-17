@@ -34,10 +34,15 @@
 .header{
     background-color: #43b1d2;
 }
+.header__right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 .header__row{
     display: flex;
     justify-content: space-between;
-    height: 118px;
+    padding-top: 30px;
     align-items: center;
 }
 .header__burger{
@@ -64,6 +69,7 @@
     display: flex;
     justify-content: flex-end;
     list-style-type: none; /* Убираем маркеры */
+    flex-wrap: wrap;
 }
 .header__menu a {
     font-family: "Calibri", sans-serif;
@@ -81,11 +87,10 @@
     color: #ffffff; /* Цвет при наведении */
 }
 .number__icon{
-    margin-left: 700px;
     font-family: "Tahoma", sans-serif;
     font-size: 20px;
     font-weight: bold;
-    color:  #ffffff;
+    color: #ffffff;
 }
 .number{
     position: relative;
