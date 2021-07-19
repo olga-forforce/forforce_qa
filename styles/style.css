@@ -129,14 +129,32 @@
     height: 100%;
     object-fit: cover;
 }
+@media screen and (max-width: 1200px){
+    .banner {
+        background-image:none;
+    }
+}
 
 .banner__text{
+    flex-direction: row;
     padding-bottom: 60px;
     padding-left: 650px;
     text-align: end;
     font-family: "Calibri", sans-serif;
     font-size: 24px;
     color: #494848;
+}
+@media screen and (max-width: 1200px){
+    .banner__text {
+        padding-bottom: 40px;
+        padding-left: 350px;
+    }
+}
+@media screen and (max-width: 960px){
+    .banner__text {
+        padding-bottom: 20px;
+        padding-left: 250px;
+    }
 }
 .banner__name{
     padding-bottom: 50px;
@@ -147,6 +165,18 @@
     font-size: 36px;
     font-weight: bold;
     color: #494848;
+}
+@media screen and (max-width: 1200px){
+    .banner__name {
+        padding-bottom: 30px;
+        padding-left: 350px;
+    }
+}
+@media screen and (max-width: 960px){
+    .banner__name {
+        padding-bottom: 20px;
+        padding-left: 250px;
+    }
 }
 .banner__phone{
     display: flex;
