@@ -203,13 +203,6 @@
     height: 325px;
     text-align: center;
 }
-.services__list{
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 325px;
-}
 .serv1{
     background-color: #43b1d2;
 }

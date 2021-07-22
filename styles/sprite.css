@@ -1,0 +1,27 @@
+.services__list{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    height: 325px;
+}
+.serv1 .smart__element:after {
+    content: '';
+    width: 41px; height: 45px;
+    background: url('../image/css_sprites.png') -10px -71px;
+}
+.serv2 .smart__element:after{
+    content: '';
+    width: 46px; height: 41px;
+    background: url('../image/css_sprites.png') -10px -10px;
+}
+.serv3 .smart__element:after{
+    content: '';
+    width: 28px; height: 49px;
+    background: url('../image/css_sprites.png') -136px -10px;
+}
+.serv4 .smart__element:after{
+    content: '';
+    width: 40px; height: 38px;
+    background: url('../image/css_sprites.png') -76px -10px;
+}
