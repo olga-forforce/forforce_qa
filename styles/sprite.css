@@ -1,10 +1,4 @@
-.services__list{
-    display: flex;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    height: 325px;
-}
+
 .serv1 .smart__element:after {
     content: '';
     width: 41px; height: 45px;
