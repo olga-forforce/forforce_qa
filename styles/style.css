@@ -45,9 +45,6 @@
     padding-top: 30px;
     align-items: center;
 }
-.header__burger{
-    display: none;
-}
 .logo{
     display: flex;
     align-items: center;
@@ -84,6 +81,10 @@
 }
 .header__menu a:hover {
     color: #ffffff; /* Цвет при наведении */
+}
+.header__phone{
+    width: 25px;
+    height: 25px;
 }
 .number__icon{
     font-family: "Tahoma", sans-serif;
@@ -198,16 +199,22 @@
     color: #494848;
     border-radius: 5px;
 }
-.services{
-    height: 325px;
-    text-align: center;
-}
 .services__list{
     display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+@media (max-width: 960px){
+    .services__list {
+        flex-wrap: wrap;
+    }
+}
+.services__block{
     height: 325px;
+    width: 360px;
 }
 .serv1{
     background-color: #43b1d2;
@@ -246,7 +253,7 @@
     color: #ffffff;
 }
 .icon__elem{
-    width: 45px;
+    width: 46px;
     height: 45px;
 }
 .icon__elem3{
@@ -278,8 +285,86 @@
 }
 .tabs__content{
     border-top: 1px solid #cbd4e6;
-    margin-top: -1px;
+    margin-top: -2px;
 }
+.tabs__card{
+    display: flex;
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.tabs__point{
+    height: 285px;
+    width: 670px;
+    padding: 20px;
+    margin: 10px;
+    border: 4px solid #43b1d2;
+}
+@media (max-width: 960px){
+    .tabs__point {
+        height: 300px;
+    }
+}
+@media (max-width: 767px) {
+    .tabs__point {
+        height: 350px;
+    }
+}
+.tabs__logo_name{
+    display: flex;
+    justify-content: space-between;
+}
+.tabs__logo{
+    width: 223px;
+    height: 78px;
+}
+.tabs__name{
+    text-align: end;
+}
+.tabs__name_clinik{
+    font-family: "Calibri", sans-serif;
+    font-size: 36px;
+    color: #494848;
+    margin: 0;
+}
+.tabs__card_adress{
+    font-family: "Calibri", sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    color: #43b1d2;
+}
+.tabs__text_about{
+    font-family: "Calibri", sans-serif;
+    font-size: 19px;
+    color: #494848;
+    text-align: start;
+    margin-bottom: 0;
+}
+.tabs__contact{
+    display: flex;
+    justify-content: space-between;
+}
+.tabs__phone{
+    font-family: "Calibri", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #494848;
+}
+.tabs__button{
+    margin: 7px;
+    padding: 13px;
+    font-family: "Calibri", sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #ffffff;
+    background-color: #38c3a8;
+    border-radius: 5px;
+    border: 2px solid #f7f7f7;
+    cursor: pointer;
+}
+
 @font-face {
     font-family: "calibri";
     src: url("../fonts/calibri.woff2");
