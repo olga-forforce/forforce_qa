@@ -1,0 +1,397 @@
+$TextColor: #494848;
+*{
+  box-sizing: border-box;
+}
+.clearfix::after{
+  display: block;
+  content: "";
+  clear: both;
+}
+.container {
+  max-width: 1440px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+@media (max-width: 1440px) {
+  .container{
+    max-width: 1120px;
+  }
+}
+@media (max-width: 1200px) {
+  .container{
+    max-width: 970px;
+  }
+}
+@media (max-width: 992px) {
+  .container{
+    max-width: 950px;
+  }
+}
+@media (max-width: 767px) {
+  .container{
+    max-width: none;
+  }
+}
+.header{
+  background-color: #43b1d2;
+}
+.header__right{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.header__row{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  align-items: center;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo__img {
+  width: 54px;
+  height: 47px;
+}
+.logo__text {
+  font-family: "Calibri", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color:  #ffffff;
+  text-shadow: 1px 2px 2px gray;
+  margin-left: 30px;
+}
+.header__menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none; /* Убираем маркеры */
+  flex-wrap: wrap;
+}
+.header__menu a {
+  font-family: "Calibri", sans-serif;
+  font-weight: normal;
+  font-size: 20px;
+  color:  $TextColor;
+  text-align: center;
+  margin-left: 30px;
+  text-decoration: none;
+}
+.end__element{
+  margin-right: 0;
+}
+.header__menu a:hover {
+  color: #ffffff; /* Цвет при наведении */
+}
+.header__phone{
+  width: 25px;
+  height: 25px;
+}
+.number__icon{
+  font-family: "Tahoma", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.number{
+  position: relative;
+  bottom: 5px;
+}
+.top {
+  position: fixed;
+  right: 50px;
+  bottom: 50px;
+  border:2px solid #f7f7f7;
+  background: #43b1d2;
+  text-align:center;
+  padding:10px;
+  border-radius: 5px;
+}
+.top_text{
+  color:$TextColor;
+  font-family: "Calibri", sans-serif;
+  font-size:18px;
+  cursor:pointer;
+  text-decoration: none;
+}
+.page{
+  width: 100%;
+  height: 100%;
+}
+.the_man{
+  background-color: #cbd4e6;
+}
+.banner{
+  background: url(../image/theman.png) center / cover no-repeat;
+  background-size: 100%;
+  padding-top: 120px;
+  padding-bottom: 40px;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 1200px){
+  .banner {
+    padding-top: 60px;
+    background-image:none;
+  }
+}
+
+.banner__text{
+  flex-direction: row;
+  padding-bottom: 60px;
+  padding-left: 650px;
+  text-align: end;
+  font-family: "Calibri", sans-serif;
+  font-size: 24px;
+  color: $TextColor;
+}
+@media screen and (max-width: 1200px){
+  .banner__text {
+    padding-bottom: 40px;
+    padding-left: 150px;
+  }
+}
+@media screen and (max-width: 960px){
+  .banner__text {
+    padding-bottom: 20px;
+    padding-left: 150px;
+  }
+}
+.banner__name{
+  padding-bottom: 50px;
+  padding-left: 650px;
+  margin: 0;
+  text-align: end;
+  font-family: "Myriad Pro", sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  color: $TextColor;
+}
+@media screen and (max-width: 1200px){
+  .banner__name {
+    padding-bottom: 30px;
+    padding-left: 350px;
+  }
+}
+@media screen and (max-width: 960px){
+  .banner__name {
+    padding-bottom: 20px;
+    padding-left: 250px;
+  }
+}
+.banner__phone{
+  display: flex;
+  justify-content: flex-end;
+}
+.button__phone{
+  padding: 10px;
+  font-family: "Calibri", sans-serif;
+  font-size: 18px;
+  color: $TextColor;
+  background-color: #cbd4e6;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.phone__write{
+  padding: 10px;
+  font-family: "Calibri", sans-serif;
+  font-size: 18px;
+  color: $TextColor;
+  border-radius: 5px;
+}
+.services__list{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+}
+@media (max-width: 960px){
+  .services__list {
+    flex-wrap: wrap;
+  }
+}
+.services__block{
+  height: 325px;
+  width: 360px;
+}
+.serv1{
+  background-color: #43b1d2;
+}
+.serv2{
+  background-color: #3fb6c6;
+}
+.serv3{
+  background-color: #3cbbbb;
+}
+.serv4{
+  background-color: #37c3a8;
+}
+.smart__element{
+  background-color: #ffffff;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.one__service{
+  margin-top: 70px;
+}
+.services__title{
+  font-family: Myriad Pro,  sans-serif;
+  font-size: 27px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.about__serv{
+  font-family: Myriad Pro,  sans-serif;
+  font-size: 14.4px;
+  color: #ffffff;
+}
+.icon__elem{
+  width: 46px;
+  height: 45px;
+}
+.icon__elem3{
+  width: 30px;
+  height: 45px;
+}
+.tabs{
+  height: 135px;
+  margin: auto;
+  text-align: center;
+}
+.tabs__text{
+  display: flex;
+  list-style-type: none;
+  margin-top: 40px;
+  padding: 0;
+  margin-bottom: 0;
+}
+.mrt, .kt, .rtgn{
+  padding: 20px;
+  font-family: "Calibri", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #43b1d2;
+}
+.mrt{
+  border: 2px solid #cbd4e6;
+  border-bottom-color: #ffffff;
+}
+.tabs__content{
+  border-top: 1px solid #cbd4e6;
+  margin-top: -2px;
+}
+.tabs__card{
+  display: flex;
+  list-style-type: none;
+  margin: 10px;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tabs__point{
+  height: 285px;
+  width: 670px;
+  padding: 20px;
+  margin: 10px;
+  border: 4px solid #43b1d2;
+}
+@media (max-width: 960px){
+  .tabs__point {
+    height: 300px;
+  }
+}
+@media (max-width: 767px) {
+  .tabs__point {
+    height: 350px;
+  }
+}
+@media (max-width: 600px) {
+  .tabs__point {
+    height: 380px;
+  }
+}
+.tabs__logo_name{
+  display: flex;
+  justify-content: space-between;
+}
+.tabs__logo{
+  width: 223px;
+  height: 78px;
+}
+.tabs__name{
+  text-align: end;
+}
+.tabs__name_clinik{
+  font-family: "Calibri", sans-serif;
+  font-size: 36px;
+  color: $TextColor;
+  margin: 0;
+}
+.tabs__card_adress{
+  font-family: "Calibri", sans-serif;
+  font-size: 16px;
+  font-style: italic;
+  color: #43b1d2;
+}
+.tabs__text_about{
+  font-family: "Calibri", sans-serif;
+  font-size: 19px;
+  color: $TextColor;
+  text-align: start;
+  margin-bottom: 0;
+}
+.tabs__contact{
+  display: flex;
+  justify-content: space-between;
+}
+.tabs__phone{
+  font-family: "Calibri", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  color: $TextColor;
+}
+.tabs__button{
+  margin: 7px;
+  padding: 13px;
+  font-family: "Calibri", sans-serif;
+  font-size: 19px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #38c3a8;
+  border-radius: 5px;
+  border: 2px solid #f7f7f7;
+  cursor: pointer;
+}
+
+@font-face {
+  font-family: "calibri";
+  src: url("../fonts/calibri.woff2") format("woff2");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: "calibri";
+  src: url("../fonts/calibri-bold.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 900;
+}
+@font-face {
+  font-family: "calibri";
+  src: url("../fonts/calibri-light.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300;
+}
+@font-face {
+  font-family: "calibri";
+  src: url("../fonts/calibri-lightitalic.woff2") format("woff2");
+  font-style: italic;
+  font-weight: normal;
+}
