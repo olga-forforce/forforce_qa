@@ -391,6 +391,44 @@
   margin-top: 53px;
   margin-right: 0px; }
 
+.callback {
+  background-color: #43b1d2; }
+
+.callback__logo {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center; }
+
+.callback__phone-order {
+  font-family: "Calibri", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  padding-right: 10px;
+  font-weight: bold; }
+
+.callback__phone-write {
+  padding-right: 100px;
+  border-color: #ffffff; }
+
+.callback__phone-button {
+  border-color: #ffffff; }
+
+.footer {
+  background-color: #e5e9f2; }
+
+.footer_list {
+  padding: 120px; }
+
+.footer_list-menu {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  flex-wrap: wrap;
+  font-family: Myriad Pro, sans-serif;
+  font-size: 22px;
+  color: #000000; }
+
 @font-face {
   font-family: "calibri";
   src: url("../fonts/calibri.woff2") format("woff2");

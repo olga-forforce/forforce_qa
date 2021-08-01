@@ -405,6 +405,45 @@ $OtherFont: Myriad Pro,  sans-serif;
 .articles__list-text2{
 
 }
+.callback{
+  background-color: $BaseColor;
+}
+.callback__logo{
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  align-items: center;
+}
+.callback__phone-order{
+  font-family: $BaseFont;
+  font-size: 24px;
+  color: $WhiteColor;
+  padding-right: 10px;
+  font-weight: bold;
+}
+.callback__phone-write{
+  padding-right: 100px;
+  border-color: $WhiteColor;
+}
+.callback__phone-button{
+  border-color: $WhiteColor;
+}
+.footer{
+  background-color: #e5e9f2;
+}
+.footer_list{
+  padding: 120px;
+}
+.footer_list-menu{
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  flex-wrap: wrap;
+  font-family: $OtherFont;
+  font-size: 22px;
+  color: #000000;
+}
+
 
 @font-face {
   font-family: "calibri";
