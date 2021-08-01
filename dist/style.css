@@ -176,7 +176,7 @@
   display: flex;
   justify-content: flex-end; }
 
-.button__phone {
+.button__view {
   padding: 10px;
   font-family: "Calibri", sans-serif;
   font-size: 18px;
@@ -184,6 +184,12 @@
   background-color: #cbd4e6;
   border-radius: 5px;
   cursor: pointer; }
+
+.button__view-cabinet {
+  border-color: #cbd4e6; }
+
+.all_cabinets {
+  margin: 45px; }
 
 .phone__write {
   padding: 10px;
@@ -204,26 +210,22 @@
   .services__list {
     flex-wrap: wrap; } }
 
-.services__block-serv1{
+.services__block {
   height: 325px;
-  width: 360px;
-  background-color: #43b1d2;
-}
-.services__block-serv2{
-  height: 325px;
-  width: 360px;
-  background-color: #3fb6c6;
-}
-.services__block-serv3{
-  height: 325px;
-  width: 360px;
-  background-color: #3cbbbb;
-}
-.services__block-serv4{
-  height: 325px;
-  width: 360px;
-  background-color: #37c3a8;
-}
+  width: 360px; }
+
+.services__block-serv1 {
+  background-color: #43b1d2; }
+
+.services__block-serv2 {
+  background-color: #3fb6c6; }
+
+.services__block-serv3 {
+  background-color: #3cbbbb; }
+
+.services__block-serv4 {
+  background-color: #37c3a8; }
+
 .smart__element {
   background-color: #ffffff;
   border-radius: 50%;
@@ -238,13 +240,13 @@
   margin-top: 70px; }
 
 .services__title {
-  font-family: Myriad Pro,  sans-serif;
+  font-family: Myriad Pro, sans-serif;
   font-size: 27px;
   font-weight: bold;
   color: #ffffff; }
 
 .about__serv {
-  font-family: Myriad Pro,  sans-serif;
+  font-family: Myriad Pro, sans-serif;
   font-size: 14.4px;
   color: #ffffff; }
 
@@ -257,7 +259,6 @@
   height: 45px; }
 
 .tabs {
-  height: 135px;
   margin: auto;
   text-align: center; }
 
@@ -361,6 +362,34 @@
   border-radius: 5px;
   border: 2px solid #f7f7f7;
   cursor: pointer; }
+
+.articles {
+  background-color: #cbd4e6; }
+
+.articles__list {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px; }
+
+.articles__list-last {
+  margin-right: 50px; }
+
+.articles__list-main {
+  font-family: "Calibri", sans-serif;
+  font-size: 36px;
+  font-style: italic;
+  color: #494848;
+  margin-top: 0; }
+
+.articles__list-text {
+  max-width: 409px;
+  font-family: "Calibri", sans-serif;
+  font-size: 18px;
+  color: #494848; }
+
+.articles__list-text1 {
+  margin-top: 53px;
+  margin-right: 0px; }
 
 @font-face {
   font-family: "calibri";
