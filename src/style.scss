@@ -17,16 +17,14 @@ $OtherFont: Myriad Pro,  sans-serif;
 }
 .footer_list{
   padding: 120px;
-}
-.footer_list-menu{
   display: flex;
   justify-content: space-between;
-  list-style-type: none;
   flex-wrap: wrap;
   font-family: $OtherFont;
   font-size: 22px;
   color: #000000;
 }
+
 
 .top {
   position: fixed;

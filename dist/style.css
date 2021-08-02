@@ -426,12 +426,9 @@
   background-color: #e5e9f2; }
 
 .footer_list {
-  padding: 120px; }
-
-.footer_list-menu {
+  padding: 120px;
   display: flex;
   justify-content: space-between;
-  list-style-type: none;
   flex-wrap: wrap;
   font-family: Myriad Pro, sans-serif;
   font-size: 22px;
