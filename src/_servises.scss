@@ -1,0 +1,101 @@
+$TextColor: #494848;
+$BaseColor: #43b1d2;
+$WhiteColor: #ffffff;
+$GrayColor: #cbd4e6;
+$BaseFont: "Calibri", sans-serif;
+$OtherFont: Myriad Pro,  sans-serif;
+.button__view-cabinet{
+  border-color: $GrayColor;
+}
+.all_cabinets{
+  margin: 45px;
+}
+.phone__write{
+  padding: 10px;
+  font-family: $BaseFont;
+  font-size: 18px;
+  color: $TextColor;
+  border-radius: 5px;
+}
+.services__list{
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+  @media (max-width: 960px){
+    flex-wrap: wrap;
+  }
+}
+
+.services__block{
+  height: 325px;
+  width: 360px;
+}
+.services__block-serv1{
+  background-color: $BaseColor;
+}
+.services__block-serv2{
+  background-color: #3fb6c6;
+}
+.services__block-serv3{
+  background-color: #3cbbbb;
+}
+.services__block-serv4{
+  background-color: #37c3a8;
+}
+.smart__element{
+  background-color: $WhiteColor;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.one__service{
+  margin-top: 70px;
+}
+.services__title{
+  font-family: $OtherFont;
+  font-size: 27px;
+  font-weight: bold;
+  color: $WhiteColor;
+}
+.about__serv{
+  font-family: $OtherFont;
+  font-size: 14.4px;
+  color: $WhiteColor;
+}
+.icon__elem{
+  width: 46px;
+  height: 45px;
+}
+.icon__elem3{
+  width: 30px;
+  height: 45px;
+}
+.tabs{
+  margin: auto;
+  text-align: center;
+}
+.tabs__text{
+  display: flex;
+  list-style-type: none;
+  margin-top: 40px;
+  padding: 0;
+  margin-bottom: 0;
+}
+.mrt, .kt, .rtgn{
+  padding: 20px;
+  font-family: $BaseFont;
+  font-size: 24px;
+  font-weight: bold;
+  color: $BaseColor;
+}
+.mrt{
+  border: 2px solid $GrayColor;
+  border-bottom-color: $WhiteColor;
+}
