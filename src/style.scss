@@ -379,13 +379,19 @@ $OtherFont: Myriad Pro,  sans-serif;
 }
 .articles__list{
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 40px;
+}
+.articles__list-wrap{
+  width: 64%;
 }
 .articles__list-last{
   margin-right: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 .articles__list-main{
+  display: block;
   font-family: $BaseFont;
   font-size: 36px;
   font-style: italic;
@@ -399,8 +405,10 @@ $OtherFont: Myriad Pro,  sans-serif;
   color: $TextColor;
 }
 .articles__list-text1{
-  margin-top: 53px;
   margin-right: 0px;
+}
+.articles__reviews{
+  width: 30%;
 }
 .articles__list-text2{
 

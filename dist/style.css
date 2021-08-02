@@ -368,13 +368,19 @@
 
 .articles__list {
   display: flex;
-  flex-wrap: wrap;
+  justify-content: space-between;
   padding: 40px; }
 
+.articles__list-wrap {
+  width: 64%; }
+
 .articles__list-last {
-  margin-right: 50px; }
+  margin-right: 50px;
+  display: flex;
+  justify-content: space-between; }
 
 .articles__list-main {
+  display: block;
   font-family: "Calibri", sans-serif;
   font-size: 36px;
   font-style: italic;
@@ -388,8 +394,10 @@
   color: #494848; }
 
 .articles__list-text1 {
-  margin-top: 53px;
   margin-right: 0px; }
+
+.articles__reviews {
+  width: 30%; }
 
 .callback {
   background-color: #43b1d2; }
