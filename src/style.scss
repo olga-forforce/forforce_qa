@@ -5,6 +5,7 @@
 @import "servises";
 @import "tabs";
 @import "articles";
+@import "footer";
 $TextColor: #494848;
 $BaseColor: #43b1d2;
 $WhiteColor: #ffffff;
@@ -12,36 +13,7 @@ $GrayColor: #cbd4e6;
 $BaseFont: "Calibri", sans-serif;
 $OtherFont: Myriad Pro,  sans-serif;
 
-.footer{
-  background-color: #e5e9f2;
-}
-.footer_list{
-  padding: 120px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  font-family: $OtherFont;
-  font-size: 22px;
-  color: #000000;
-}
 
-.top {
-  position: fixed;
-  right: 50px;
-  bottom: 50px;
-  border:2px solid #f7f7f7;
-  background: $BaseColor;
-  text-align:center;
-  padding:10px;
-  border-radius: 5px;
-}
-.top_text{
-  color:$TextColor;
-  font-family: $BaseFont;
-  font-size:18px;
-  cursor:pointer;
-  text-decoration: none;
-}
 @font-face {
   font-family: "calibri";
   src: url("../fonts/calibri.woff2") format("woff2");
