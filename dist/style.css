@@ -44,6 +44,11 @@
 .header__row-logo {
   display: flex;
   align-items: center; }
+  @media (max-width: 360px) {
+    .header__row-logo {
+      position: absolute;
+      left: 1px;
+      top: 4px; } }
 
 .logo__img {
   width: 54px;
@@ -56,13 +61,17 @@
   color: #ffffff;
   text-shadow: 1px 2px 2px gray;
   margin-left: 30px; }
+  @media (max-width: 360px) {
+    .header__logo-text {
+      margin-left: 10px; } }
 
 .header__menu {
   display: flex;
   justify-content: flex-end;
   list-style-type: none;
   /* Убираем маркеры */
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  padding: 3px; }
 
 .header__menu a {
   font-family: "Calibri", sans-serif;
@@ -89,6 +98,10 @@
   font-size: 20px;
   font-weight: bold;
   color: #ffffff; }
+  @media (max-width: 360px) {
+    .header__number-icon {
+      position: absolute;
+      top: 12px; } }
 
 .number {
   position: relative;
@@ -113,6 +126,9 @@
     .banner {
       padding-top: 60px;
       background-image: none; } }
+  @media (max-width: 360px) {
+    .banner {
+      padding-top: 20px; } }
 
 .banner__text {
   flex-direction: row;
@@ -130,6 +146,9 @@
     .banner__text {
       padding-bottom: 20px;
       padding-left: 150px; } }
+  @media screen and (max-width: 360px) {
+    .banner__text {
+      padding-left: 50px; } }
 
 .banner__name {
   padding-bottom: 50px;
@@ -148,6 +167,12 @@
     .banner__name {
       padding-bottom: 20px;
       padding-left: 250px; } }
+  @media screen and (max-width: 500px) {
+    .banner__name {
+      padding-left: 100px; } }
+  @media screen and (max-width: 360px) {
+    .banner__name {
+      padding-left: 100px; } }
 
 .banner__phone {
   display: flex;
@@ -167,6 +192,9 @@
 
 .all_cabinets {
   margin: 45px; }
+  @media (max-width: 560px) {
+    .all_cabinets {
+      margin: 25px; } }
 
 .phone__write {
   padding: 10px;
@@ -251,6 +279,10 @@
   font-size: 24px;
   font-weight: bold;
   color: #43b1d2; }
+  @media (max-width: 360px) {
+    .mrt, .kt, .rtgn {
+      font-size: 20px;
+      padding: 15px; } }
 
 .mrt {
   border: 2px solid #cbd4e6;
@@ -283,10 +315,19 @@
   @media (max-width: 600px) {
     .tabs__point {
       height: 380px; } }
+  @media (max-width: 550px) {
+    .tabs__point {
+      height: 480px; } }
+  @media (max-width: 360px) {
+    .tabs__point {
+      height: 480px; } }
 
 .tabs__logo_name {
   display: flex;
   justify-content: space-between; }
+  @media (max-width: 360px) {
+    .tabs__logo_name {
+      flex-direction: column; } }
 
 .tabs__logo {
   width: 223px;
@@ -294,12 +335,18 @@
 
 .tabs__name {
   text-align: end; }
+  @media (max-width: 360px) {
+    .tabs__name {
+      text-align: center; } }
 
 .tabs__name_clinik {
   font-family: "Calibri", sans-serif;
   font-size: 36px;
   color: #494848;
   margin: 0; }
+  @media (max-width: 360px) {
+    .tabs__name_clinik {
+      font-size: 26px; } }
 
 .tabs__card_adress {
   font-family: "Calibri", sans-serif;
@@ -313,16 +360,29 @@
   color: #494848;
   text-align: start;
   margin-bottom: 0; }
+  @media (max-width: 360px) {
+    .tabs__text_about {
+      font-size: 16px;
+      margin: 0; } }
 
 .tabs__contact {
   display: flex;
   justify-content: space-between; }
+  @media (max-width: 500px) {
+    .tabs__contact {
+      flex-direction: column; } }
+  @media (max-width: 360px) {
+    .tabs__contact {
+      flex-direction: column; } }
 
 .tabs__phone {
   font-family: "Calibri", sans-serif;
   font-size: 19px;
   font-weight: bold;
   color: #494848; }
+  @media (max-width: 360px) {
+    .tabs__phone {
+      margin-bottom: 0; } }
 
 .tabs__button {
   margin: 7px;

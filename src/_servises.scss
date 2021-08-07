@@ -9,6 +9,9 @@ $OtherFont: Myriad Pro,  sans-serif;
 }
 .all_cabinets{
   margin: 45px;
+  @media (max-width: 560px){
+    margin: 25px;
+  }
 }
 .phone__write{
   padding: 10px;
@@ -94,6 +97,10 @@ $OtherFont: Myriad Pro,  sans-serif;
   font-size: 24px;
   font-weight: bold;
   color: $BaseColor;
+  @media (max-width: 360px){
+    font-size: 20px;
+    padding: 15px;
+  }
 }
 .mrt{
   border: 2px solid $GrayColor;

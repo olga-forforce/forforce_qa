@@ -31,10 +31,19 @@ $BaseFont: "Calibri", sans-serif;
   @media (max-width: 600px) {
     height: 380px;
   }
+  @media (max-width: 550px) {
+    height: 480px;
+  }
+  @media (max-width: 360px) {
+    height: 480px;
+  }
 }
 .tabs__logo_name{
   display: flex;
   justify-content: space-between;
+  @media (max-width: 360px) {
+    flex-direction: column;
+  }
 }
 .tabs__logo{
   width: 223px;
@@ -42,12 +51,18 @@ $BaseFont: "Calibri", sans-serif;
 }
 .tabs__name{
   text-align: end;
+  @media (max-width: 360px) {
+    text-align: center;
+  }
 }
 .tabs__name_clinik{
   font-family: $BaseFont;
   font-size: 36px;
   color: $TextColor;
   margin: 0;
+  @media (max-width: 360px) {
+    font-size: 26px;
+  }
 }
 .tabs__card_adress{
   font-family: $BaseFont;
@@ -61,16 +76,29 @@ $BaseFont: "Calibri", sans-serif;
   color: $TextColor;
   text-align: start;
   margin-bottom: 0;
+  @media (max-width: 360px) {
+    font-size: 16px;
+    margin: 0;
+  }
 }
 .tabs__contact{
   display: flex;
   justify-content: space-between;
+  @media (max-width: 500px) {
+    flex-direction: column;
+  }
+  @media (max-width: 360px) {
+    flex-direction: column;
+  }
 }
 .tabs__phone{
   font-family: $BaseFont;
   font-size: 19px;
   font-weight: bold;
   color: $TextColor;
+  @media (max-width: 360px) {
+    margin-bottom: 0;
+  }
 }
 .tabs__button{
   margin: 7px;
