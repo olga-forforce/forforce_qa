@@ -441,6 +441,9 @@
   margin-top: 30px;
   margin-right: 50px; }
 
+.articles__list-btn {
+  align-self: center; }
+
 .articles__list-button {
   padding: 10px;
   background-color: #cbd4e6;
@@ -453,7 +456,6 @@
   background-color: #38c3a8;
   border-radius: 5px;
   cursor: pointer;
-  margin: 7px;
   font-family: "Calibri", sans-serif;
   font-size: 19px;
   font-weight: bold;
@@ -461,7 +463,9 @@
   border: 2px solid #38c3a8; }
 
 .articles__list-about {
-  margin-top: 40px; }
+  margin-top: 50px;
+  justify-content: flex-end;
+  display: flex; }
 
 .callback {
   background-color: #43b1d2; }
@@ -485,6 +489,21 @@
 
 .callback__phone-button {
   border-color: #ffffff; }
+
+.articles__list-text-first {
+  margin-top: 0; }
+
+#langs p {
+  display: none; }
+
+#langs p.first {
+  display: block; }
+
+#langs_2 p {
+  display: none; }
+
+#langs_2 p.first {
+  display: block; }
 
 .footer {
   background-color: #e5e9f2; }

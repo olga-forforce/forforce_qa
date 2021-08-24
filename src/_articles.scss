@@ -49,6 +49,9 @@ $OtherFont: Myriad Pro,  sans-serif;
   margin-top: 30px;
   margin-right: 50px;
 }
+.articles__list-btn{
+  align-self: center;
+}
 .articles__list-button{
   padding: 10px;
   background-color: $GrayColor;
@@ -61,7 +64,6 @@ $OtherFont: Myriad Pro,  sans-serif;
   background-color: #38c3a8;
   border-radius: 5px;
   cursor: pointer;
-  margin: 7px;
   font-family: $BaseFont;
   font-size: 19px;
   font-weight: bold;
@@ -69,7 +71,9 @@ $OtherFont: Myriad Pro,  sans-serif;
   border: 2px solid #38c3a8;
 }
 .articles__list-about{
-  margin-top: 40px;
+  margin-top: 50px;
+  justify-content: flex-end;
+  display: flex;
 }
 .callback{
   background-color: $BaseColor;
@@ -94,3 +98,12 @@ $OtherFont: Myriad Pro,  sans-serif;
 .callback__phone-button{
   border-color: $WhiteColor;
 }
+.articles__list-text-first{
+  margin-top: 0;
+}
+
+#langs p {display: none;}
+#langs p.first {display: block;}
+
+#langs_2 p {display: none;}
+#langs_2 p.first {display: block;}
