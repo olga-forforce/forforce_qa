@@ -84,25 +84,6 @@ $OtherFont: Myriad Pro,  sans-serif;
   margin: auto;
   text-align: center;
 }
-.tabs__text{
-  display: flex;
-  list-style-type: none;
+.nav-tabs{
   margin-top: 40px;
-  padding: 0;
-  margin-bottom: 0;
-}
-.mrt, .kt, .rtgn{
-  padding: 20px;
-  font-family: $BaseFont;
-  font-size: 24px;
-  font-weight: bold;
-  color: $BaseColor;
-  @media (max-width: 360px){
-    font-size: 20px;
-    padding: 15px;
-  }
-}
-.mrt{
-  border: 2px solid $GrayColor;
-  border-bottom-color: $WhiteColor;
 }

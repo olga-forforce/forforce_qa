@@ -4,10 +4,6 @@ $WhiteColor: #ffffff;
 $GrayColor: #cbd4e6;
 $BaseFont: "Calibri", sans-serif;
 
-.tabs__content{
-  border-top: 1px solid $GrayColor;
-  margin-top: -2px;
-}
 .tabs__card{
   display: flex;
   list-style-type: none;
@@ -101,7 +97,7 @@ $BaseFont: "Calibri", sans-serif;
   }
 }
 .tabs__button{
-  margin: 7px;
+
   padding: 13px;
   font-family: $BaseFont;
   font-size: 19px;

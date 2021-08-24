@@ -12,14 +12,24 @@ $OtherFont: Myriad Pro,  sans-serif;
   display: flex;
   justify-content: space-between;
   padding: 40px;
+  @media (max-width: 760px){
+    display: block;
+  }
 }
 .articles__list-wrap{
   width: 64%;
+  @media (max-width: 760px){
+    width: 100%;
+  }
 }
 .articles__list-last{
   margin-right: 50px;
   display: flex;
   justify-content: space-between;
+  @media (max-width: 1460px){
+    margin-right: 50px;
+    display: inline;
+  }
 }
 .articles__list-main{
   display: block;
@@ -40,6 +50,9 @@ $OtherFont: Myriad Pro,  sans-serif;
 }
 .articles__reviews{
   width: 35%;
+  @media (max-width: 760px){
+    width: 100%;
+  }
 }
 .articles__list-click{
   display: flex;
@@ -83,6 +96,9 @@ $OtherFont: Myriad Pro,  sans-serif;
   justify-content: space-between;
   padding: 30px;
   align-items: center;
+  @media (max-width: 700px){
+    display: block;
+  }
 }
 .callback__phone-order{
   font-family: $BaseFont;
@@ -101,9 +117,13 @@ $OtherFont: Myriad Pro,  sans-serif;
 .articles__list-text-first{
   margin-top: 0;
 }
-
+.header__row-logo{
+  @media (max-width: 700px){
+    padding-bottom: 10px;
+  }
+}
 #langs p {display: none;}
 #langs p.first {display: block;}
 
-#langs_2 p {display: none;}
-#langs_2 p.first {display: block;}
+#second p {display: none;}
+#second p.first {display: block;}

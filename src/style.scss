@@ -1,3 +1,4 @@
+@import "node_modules/bootstrap/scss/bootstrap";
 @import "reset";
 @import "container";
 @import "header";
@@ -6,12 +7,6 @@
 @import "tabs";
 @import "articles";
 @import "footer";
-$TextColor: #494848;
-$BaseColor: #43b1d2;
-$WhiteColor: #ffffff;
-$GrayColor: #cbd4e6;
-$BaseFont: "Calibri", sans-serif;
-$OtherFont: Myriad Pro,  sans-serif;
 
 
 @font-face {
@@ -37,4 +32,7 @@ $OtherFont: Myriad Pro,  sans-serif;
   src: url("../fonts/calibri-lightitalic.woff2") format("woff2");
   font-style: italic;
   font-weight: normal;
+}
+.svg{
+  display: none;
 }

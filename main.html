@@ -46,6 +46,7 @@
         }
     </script>
     <script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </head>
 <body>
 <header class="header clearfix">
@@ -160,10 +161,16 @@
     </section>
     <section class="tabs">
         <div class="container">
-            <ul class="tabs__text">
-                <li class="mrt">МРТ</li>
-                <li class="kt">КТ</li>
-                <li class="rtgn">РЕНТГЕН ИССЛЕДОВАНИЯ</li>
+            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">МРТ</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">КТ</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Рентген</button>
+                </li>
             </ul>
             <div class="tabs__content">
                 <ul class="tabs__card">
@@ -342,11 +349,28 @@
                         });
                     </script>
                 </div>
+                <script type="text/javascript">
+                    $(function (){
+                        var current = $("div#second p").first();
+                        $('#going').click(function (){
+                            $(current).not('.last').hide("fast", function (){
+                                current = $(current).going('p');
+                                $(current).show("fast");
+                            });
+                        });
+                        $('#end').click(function (){
+                            $(current).not('.first').hide("fast", function () {
+                                current = $(current).end('p');
+                                $(current).show("fast");
+                            });
+                        });
+                    });
+                </script>
                 <div class="articles__reviews">
                     <p class="articles__list-main">
                         Отзывы о нас
                     </p>
-                    <div id="langs_2" class="articles__list-text">
+                    <div id="second" class="articles__list-text">
                         <p class="first">Что такое текст «рыба» знают все, кто работает с версткой журналов, дизайном и
                             разработкой сайтов. Этот текст служит для демонстрации того, как контент впоследствии
                             будет выглядеть на готовой странице, чтобы увидеть, правильно ли размещаются абзацы,
@@ -372,27 +396,10 @@
                             высокий профессионализм, открытость, ориентир на здоровье пациента, соблюдение медицинских
                             стандартов, создание комфортных условий пребывания в Клинике.</p>
                         <div class="articles__list-about">
-                            <input id="prev2" class="articles__list-button" type="submit" value="Назад">
-                            <input id="next2" class="articles__list-button" type="submit" value="Вперед">
+                            <input id="end" class="articles__list-button" type="submit" value="Назад">
+                            <input id="going" class="articles__list-button" type="submit" value="Вперед">
                         </div>
                     </div>
-                    <script type="text/javascript">
-                        $(function (){
-                            var cur = $("div#langs_2 p").first();
-                            $('#next2').click(function (){
-                                $(cur).not('.last').hide("fast", function (){
-                                    cur = $(cur).next2('p');
-                                    $(cur).show("slow");
-                                });
-                            });
-                            $('#prev2').click(function (){
-                                $(cur).not('.first').hide("fast", function () {
-                                    cur = $(cur).prev2('p');
-                                    $(cur).show("fast");
-                                });
-                            });
-                        });
-                    </script>
                 </div>
             </div>
         </div>
@@ -501,11 +508,11 @@
 <section class="copyright">
     <div class="container">
         <div class="copyright__footer">
-            <span>Copyright © 2017.</span></div>
+            <span>Copyright © 2021.</span></div>
     </div>
 </section>
 </body>
-<svg>
+<svg class="svg">
     <symbol>
         <svg xmlns="http://www.w3.org/2000/svg"
              xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="57"
