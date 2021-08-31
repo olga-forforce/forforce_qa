@@ -15,9 +15,10 @@ gulp.task('sass:watch', function () {
     gulp.watch('./src/**/*.scss', gulp.series(['sass']));
 });
 
-var imagemin = require('gulp-imagemin');
-gulp.task('images', function(){
-    return gulp.src('./image/(png|jpg|gif|svg)')
-        .pipe(imagemin())
-        .pipe(gulp.dest('dist/image'))
+const image = require('gulp-image');
+
+gulp.task('image', function () {
+    return gulp.src('./image/*')
+        .pipe(image())
+        .pipe(gulp.dest('./dist/imeges'));
 });
