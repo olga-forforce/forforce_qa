@@ -23,14 +23,17 @@
   "dependencies": {
     "bootstrap": "^5.1.0",
     "jquery": "^3.6.0",
+    "mini-css-extract-plugin": "^2.2.1",
     "normalize.css": "^8.0.1",
     "sass": "^1.36.0"
   },
   "devDependencies": {
+    "css-loader": "^6.2.0",
     "gulp": "^4.0.2",
     "gulp-image": "^6.2.1",
     "gulp-sass": "^5.0.0",
     "node-sass": "^6.0.1",
+    "sass-loader": "^12.1.0",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0"
   }
